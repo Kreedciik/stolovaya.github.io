@@ -342,6 +342,7 @@ button{
 	opacity: 0;
 	visibility: hidden;
 	transition: opacity .2s linear;
+	
 }
 .overlay.active{
 	opacity: 0.502; 
@@ -1097,7 +1098,9 @@ button{
 	color: #fff;
 }
 
-
+.offer__slider.swiper-container{
+	z-index: 0;
+}
 
 	/*Media queries*/
 @media screen and (max-width: 1430px){
